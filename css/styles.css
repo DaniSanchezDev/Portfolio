@@ -83,6 +83,14 @@ h3 {
   background-color: #1c3f7a;
 }
 
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain; 
+  margin: auto 20px; 
+}
+
+
 footer {
   font-size: 0.8rem;
   color: #6c757d;
