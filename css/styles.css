@@ -103,3 +103,15 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .carousel-item .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .carousel-item .card {
+    width: 100%;
+    max-width: 300px; /* Opcional, para limitar el tamaño */
+    margin-bottom: 20px;
+  }
+}
