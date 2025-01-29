@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Replica</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="container my-4">
+      <nav class="d-flex justify-content-between align-items-center">
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tecnologies">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+        <button class="btn btn-dark">
+          <a href="./others/CV-Daniel-Sanchez.pdf" target="_blank"
+            >Descargar CV</a
+          >
+        </button>
+      </nav>
+    </header>
+    <section id="about" class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img
+            src="./img/ProfileLinkedIn.jpg"
+            alt="Profile"
+            class="img-fluid rounded-circle shadow-lg"
+            style="max-width: 200px"
+          />
+        </div>
+
+        <div class="col-md-8">
+          <h1>Daniel Sánchez</h1>
+          <p class="text-muted">
+            Me considero un diseñador entusiasta con conocimientos en
+            interfaces, maquetación y frontend. Me gusta trabajar en equipo,
+            aprender nuevas tecnologías y enfrentar nuevos retos. Estas son
+            algunas habilidades, proyectos y experiencias que puedo compartir
+            para futuros retos.
+          </p>
+          <div class="d-flex align-items-center mb-2">
+            <i class="bi bi-geo-alt me-2"></i>
+            <span>A Coruña</span>
+          </div>
+          <div class="d-flex align-items-center mb-4">
+            <i
+              class="bi bi-circle-fill text-success me-2"
+              style="font-size: 0.75rem"
+            ></i>
+            <span>Open to work</span>
+          </div>
+          <div class="d-flex gap-3">
+            <a
+              href="https://www.linkedin.com/in/daniel-sanchez-vazquez/"
+              class="text-dark"
+              target="_blank"
+              ><i class="bi bi-linkedin fs-4"></i
+            ></a>
+            <a
+              href="https://github.com/DaniSanchezDev"
+              class="text-dark"
+              target="_blank"
+              ><i class="bi bi-github fs-4"></i
+            ></a>
+            <a
+              href="https://www.figma.com/team_invite/redeem/HVnaPhOr3x4zFCXkA3kAp7"
+              class="text-dark d-flex align-items-center"
+              target="_blank"
+              ><i class="fab fa-figma fs-4"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologies" class="container my-5">
+      <h3 class="mb-4">Habilidades y tecnologías que domino</h3>
+      <div class="row text-center technologies">
+        <div class="col-3">
+          <img src="./img/HTML5_logo_and_wordmark.svg.png" alt="React" />
+          <p>HTML</p>
+        </div>
+        <div class="col-3">
+          <img src="./img/logotipo_css-min.png" alt="React" />
+          <p>CSS</p>
+        </div>
+        <div class="col-3">
+          <img src="./img/js.png" alt="JS" />
+          <p>JavaScript</p>
+        </div>
+        <div class="col-3">
+          <img src="./img/React.png" alt="React" />
+          <p>React</p>
+        </div>
+        <div class="col-3">
+          <img src="./img/springboot.png" alt="React" />
+          <p>Spring</p>
+        </div>
+        <div class="col-3">
+          <img src="./img/java.png" alt="React" />
+          <p>Java</p>
+        </div>
+        <div class="col-3">
+          <img src="./img/figma.png" alt="Figma" />
+          <p>Figma</p>
+        </div>
+        <div class="col-3">
+          <img src="./img/github.png" alt="Git" />
+          <p>GitHub</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container my-5">
+      <h3 class="text-center mb-5">Proyectos</h3>
+      <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center gap-4">
+              <div class="card project-card">
+                <a
+                  href="https://danisanchezdev.github.io/P5_Podcast/html/index.html"
+                  target="_blank"
+                  ><img
+                    src="./img/logoPodcast.jpg"
+                    alt="Aplicacion Appfluence Podcast"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body text-center">
+                  <h5 class="card-title">AppFluence</h5>
+                  <p class="card-text text-muted">
+                    Aplicación creada para el podcast de AppFluence
+                  </p>
+                </div>
+              </div>
+              <div class="card project-card">
+                <a
+                  href="https://blog-practice-rho.vercel.app/home"
+                  target="_blank"
+                  ><img
+                    src="./img/blog.png"
+                    alt="Aplicacion Blog"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Blog</h5>
+                  <p class="card-text text-muted">
+                    Aplicación creada para el podcast de AppFluence
+                  </p>
+                </div>
+              </div>
+              <div class="card project-card">
+                <a
+                  href="https://podcastflexgrid.vercel.app/"
+                  target="_blank"
+                  ><img
+                    src="./img/PodcastFlex&Grid.png"
+                    alt="Aplicacion Appfluence Podcast"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Podcast con Flex & Grid</h5>
+                  <p class="card-text text-muted">
+                    Aplicación creada para el podcast hecha solo con flex & grid
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center gap-4">
+              <div class="card project-card">
+                <a
+                  href="https://danisanchezdev.github.io/P5_Podcast/html/index.html"
+                  target="_blank"
+                  ><img
+                    src="./img/logoPodcast.jpg"
+                    alt="Aplicacion Appfluence Podcast"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body text-center">
+                  <h5 class="card-title">AppFluence</h5>
+                  <p class="card-text text-muted">
+                    Aplicación creada para el podcast de AppFluence
+                  </p>
+                </div>
+              </div>
+              <div class="card project-card">
+                <a
+                  href="https://danisanchezdev.github.io/P5_Podcast/html/index.html"
+                  target="_blank"
+                  ><img
+                    src="/img/logoPodcast.jpg"
+                    alt="Aplicacion Appfluence Podcast"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body text-center">
+                  <h5 class="card-title">AppFluence</h5>
+                  <p class="card-text text-muted">
+                    Aplicación creada para el podcast de AppFluence
+                  </p>
+                </div>
+              </div>
+              <div class="card project-card">
+                <a
+                  href="https://danisanchezdev.github.io/P5_Podcast/html/index.html"
+                  target="_blank"
+                  ><img
+                    src="./img/PodcastFlex&Grid.png"
+                    alt="Aplicacion Appfluence Podcast"
+                    class="card-img-top"
+                /></a>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Podcast Flex & Grid</h5>
+                  <p class="card-text text-muted">
+                    Aplicación creada para el podcast creado con flex & grid
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#projectsCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#projectsCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="experience" class="container my-5">
+      <h3 class="mb-4">Experiencia</h3>
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <div class="card shadow-sm d-flex flex-row">
+            <div class="card-body">
+              <h5 class="card-title">//ABANCA (Intelcia)</h5>
+              <h6 class="card-subtitle text-muted mb-2">Teleoperador</h6>
+              <ul>
+                <li>Operador telefónico</li>
+                <li>Gestion de Back Office</li>
+                <li>Atención al cliente</li>
+              </ul>
+              <p class="text-muted small">Fecha: 04/2024 - 02/2025</p>
+            </div>
+            <img class="col-3" src="./img/LOGO_ABANCA.png" alt="logo de ABANCA">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm d-flex flex-row">
+            <div class="card-body">
+              <h5 class="card-title">Vans</h5>
+              <h6 class="card-subtitle text-muted mb-2">Dependiente</h6>
+              <ul>
+                <li>Dependiente comercial</li>
+                <li>Gestion de stock</li>
+                <li>Organización de almacen</li>
+              </ul>
+              <p class="text-muted small">Fecha: 07/2023 - 01/2024</p>
+            </div>
+            <img class="col-3" src="./img/LOGO_VANS.jpg" alt="logo de VANS">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm d-flex flex-row">
+            <div class="card-body">
+              <h5 class="card-title">Jevaso SLU</h5>
+              <h6 class="card-subtitle text-muted mb-2">Operador Logistico</h6>
+              <ul>
+                <li>Gestion de almacen y cargas</li>
+                <li>Organización de trabajos y espacios</li>
+                <li>Picking y gestión de pedidos online</li>
+              </ul>
+              <p class="text-muted small">Fecha: 03/2022 - 07/2022</p>
+            </div>
+            <img class="col-3" src="./img/LOGO_JEVASO.png" alt="logo de JEVASO">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Teleperformance</h5>
+              <h6 class="card-subtitle text-muted mb-2">Teleoperador</h6>
+              <ul>
+                <li>Operador telefónico</li>
+                <li>Gestion de Back Office</li>
+                <li>Atención al cliente</li>
+              </ul>
+              <p class="text-muted small">Fecha: 11/2020 - 03/2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+      <div class="row shadow rounded bg-light">
+        <div
+          class="col-lg-5 p-4 d-flex flex-column justify-content-center text-white"
+          style="background: linear-gradient(135deg, #9e9e9e, #528cef)"
+        >
+          <h2 class="fw-bold">Ponte en contacto</h2>
+          <p class="mt-3">
+            ¿Tienes alguna pregunta o quieres hablar sobre un proyecto?
+            Escríbeme y estaré encantado de ayudarte. Respondo lo antes posible.
+          </p>
+        </div>
+
+        <div class="col-lg-7 p-4">
+          <h3 class="text-center mb-4">Formulario de Contacto</h3>
+          <form class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Introduce tu nombre"
+                required
+              />
+              <div class="invalid-feedback">
+                Por favor, introduce tu nombre.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Introduce tu email"
+                required
+              />
+              <div class="invalid-feedback">
+                Por favor, introduce un correo válido.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Asunto</label>
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                placeholder="¿Sobre qué es tu mensaje?"
+                required
+              />
+              <div class="invalid-feedback">
+                Por favor, introduce un asunto.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="5"
+                placeholder="Escribe tu mensaje aquí..."
+                required
+              ></textarea>
+              <div class="invalid-feedback">Por favor, escribe un mensaje.</div>
+            </div>
+            <div class="d-grid justify-content-center">
+              <button type="submit" class="btn btn-primary btn-lg boton-form">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+
+    <footer class="bg-light">
+      <p>Pagina creada como portfolio &copy;Daniel Sánchez Vázquez 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

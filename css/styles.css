@@ -1,0 +1,96 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #4a4a4a;
+}
+
+.project-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.project-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.project-card .card-text {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.carousel-inner {
+  padding: 10px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(50%);
+}
+
+
+
+.profile-img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.technologies img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.boton-form {
+  background-color: #528cef;
+  width: 200px;
+}
+
+.boton-form:hover {
+  background-color: #1c3f7a;
+}
+
+footer {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-align: center;
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
