@@ -104,6 +104,30 @@ h3 {
   border-radius: 5px;
 }
 
+.bg-image-blur {
+  background-image: url('./../img/formulario-de-contacto-1.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(20px);
+  z-index: 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .boton-form {
   background-color: #528cef;
   width: 200px;
