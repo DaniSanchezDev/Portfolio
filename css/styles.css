@@ -23,7 +23,7 @@ nav a {
 
 nav button a {
   text-decoration: none;
-  color: inherit; /* Mantiene el color del texto */
+  color: inherit; 
 }
 
 nav button a:hover {
@@ -166,7 +166,13 @@ a {
   text-decoration: none;
 }
 
-/* About */
+
+
+
+
+
+
+/* Estilos para About */
 
 .about-section {
   background-color: #f8f9fa;
@@ -220,7 +226,79 @@ a {
   color: #555;
 }
 
-/* Responsividad */
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  border-bottom: none;
+  background-color: #f8f9fa;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-body {
+  font-size: 1rem;
+  color: #555;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.modal-footer {
+  border-top: none;
+  background-color: #f8f9fa;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+button[data-bs-toggle="modal"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button[data-bs-toggle="modal"]:hover {
+  background-color: #0056b3;
+}
+
+button[data-bs-toggle="modal"].ms-auto {
+  margin-left: auto;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  max-width: 500px; 
+  margin: 1.75rem auto; /
+}
+
+
+/* Estilos para responsive */
+
 @media (max-width: 768px) {
   .about-details {
     flex-direction: column;
