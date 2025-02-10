@@ -23,7 +23,7 @@ nav a {
 
 nav button a {
   text-decoration: none;
-  color: inherit; 
+  color: inherit;
 }
 
 nav button a:hover {
@@ -166,12 +166,6 @@ a {
   text-decoration: none;
 }
 
-
-
-
-
-
-
 /* Estilos para About */
 
 .about-section {
@@ -225,7 +219,6 @@ a {
   font-size: 1rem;
   color: #555;
 }
-
 
 .modal-content {
   border-radius: 10px;
@@ -292,10 +285,9 @@ button[data-bs-toggle="modal"].ms-auto {
 }
 
 .modal-dialog {
-  max-width: 500px; 
-  margin: 1.75rem auto; /
+  max-width: 500px;
+  margin: 1.75rem auto;
 }
-
 
 /* Estilos para responsive */
 
